@@ -1,0 +1,28 @@
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.left-arrow {
+  cursor: pointer;
+  flex: 1 1 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: left;
+}
+
+.right-arrow {
+  cursor: pointer;
+  flex: 1 1 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: right;
+}
+
+.slideshow-container {
+  flex: 5 5 5;
+  position: relative;
+  overflow: hidden;
+}
